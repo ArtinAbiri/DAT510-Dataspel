@@ -1,0 +1,437 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16182 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/kevin/DAT510 Dataspel
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63408
+Successfully changed project path to: C:/Users/kevin/DAT510 Dataspel
+C:/Users/kevin/DAT510 Dataspel
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kevin/DAT510 Dataspel/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d52)
+    Vendor:   
+    VRAM:     1983 MB
+    Driver:   27.21.14.6259
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002431 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 44.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.577 seconds
+Domain Reload Profiling:
+	ReloadAssembly (577ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (447ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005077 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 48.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.062 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1063ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (870ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (325ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2197 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.8 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2630.
+Total: 2.862900 ms (FindLiveObjects: 0.197700 ms CreateObjectMapping: 0.092300 ms MarkObjects: 2.512200 ms  DeleteObjects: 0.059500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle.anim
+  artifactKey: Guid(39dde10e542224a43bd5b9a4483fa0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle.anim using Guid(39dde10e542224a43bd5b9a4483fa0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8decfd0e7afda2b9319bad0fa2fb3734') in 0.031107 seconds 
+  Import took 0.034481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 384.005690 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_Base.png
+  artifactKey: Guid(2be3094d9a656d3418453710c18e207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_Base.png using Guid(2be3094d9a656d3418453710c18e207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c8d21a37028348011cb177eee849d3') in 0.107525 seconds 
+  Import took 0.112145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 243.937659 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle.png
+  artifactKey: Guid(6e0c802b141c7d14e9548ae7da1bd8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle.png using Guid(6e0c802b141c7d14e9548ae7da1bd8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcac44be0665657c17b3909886609328') in 0.015740 seconds 
+  Import took 0.019356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.216724 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle.png
+  artifactKey: Guid(6e0c802b141c7d14e9548ae7da1bd8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle.png using Guid(6e0c802b141c7d14e9548ae7da1bd8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab5105e856a8b42f1e13114610df3d5') in 0.007436 seconds 
+  Import took 0.011569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.438464 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle.png
+  artifactKey: Guid(6e0c802b141c7d14e9548ae7da1bd8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle.png using Guid(6e0c802b141c7d14e9548ae7da1bd8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422891a3046df854bf30205f6f38a4e3') in 0.020599 seconds 
+  Import took 0.025279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.687923 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_Base.png
+  artifactKey: Guid(2be3094d9a656d3418453710c18e207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_Base.png using Guid(2be3094d9a656d3418453710c18e207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af755e1ea77a73cbafb20880cf70ca1') in 0.020709 seconds 
+  Import took 0.024543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 710.223123 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle_0.controller
+  artifactKey: Guid(7711ba3f023b0b4458b7ba4a662ea5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle_0.controller using Guid(7711ba3f023b0b4458b7ba4a662ea5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1934312d88080ae9bbdf7180e582921') in 0.012190 seconds 
+  Import took 0.020525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.454418 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Player.controller
+  artifactKey: Guid(4d221ef18e15ae14b89b9eaa7b3fe9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Player.controller using Guid(4d221ef18e15ae14b89b9eaa7b3fe9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a327f5fdd3fc39f620f559cdfee806f0') in 0.002180 seconds 
+  Import took 0.005679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.842322 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_hurt.png
+  artifactKey: Guid(a9671f079463bd742984a55057685b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_hurt.png using Guid(a9671f079463bd742984a55057685b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad86b087eb66fb334dedf480639f243') in 0.019521 seconds 
+  Import took 0.022856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.918774 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_hurt.png
+  artifactKey: Guid(a9671f079463bd742984a55057685b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_hurt.png using Guid(a9671f079463bd742984a55057685b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe208d47f74afdc6a5fe9c6baa46bcf9') in 0.005929 seconds 
+  Import took 0.009246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.709559 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_hurt.png
+  artifactKey: Guid(a9671f079463bd742984a55057685b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_hurt.png using Guid(a9671f079463bd742984a55057685b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efee8c3ff6c7c7bafe9e9d907212b070') in 0.023401 seconds 
+  Import took 0.026943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 208.238007 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle_0 2.controller
+  artifactKey: Guid(8268f5647593e6d4d89bf4ae759899c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle_0 2.controller using Guid(8268f5647593e6d4d89bf4ae759899c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4b2ebff301f7bad03e7560f7b083b2') in 0.003455 seconds 
+  Import took 0.009994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.647206 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle_0 1.controller
+  artifactKey: Guid(1a59fea188e0132478f8cf8d1b93aadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle_0 1.controller using Guid(1a59fea188e0132478f8cf8d1b93aadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71641cec42a3d0e715704b80a25f3ce8') in 0.005665 seconds 
+  Import took 0.013197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 255.126077 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_hurt.anim
+  artifactKey: Guid(f2fb256935450f345beb11fade6776bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_hurt.anim using Guid(f2fb256935450f345beb11fade6776bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1377a7862fda59b525addfc5c217e07') in 0.003308 seconds 
+  Import took 0.006711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.994918 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle_0 (1).controller
+  artifactKey: Guid(e1c97597b17681f41aceb284e1c801e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle_0 (1).controller using Guid(e1c97597b17681f41aceb284e1c801e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8272768cd22d6abf8b008c0268bb2866') in 0.003591 seconds 
+  Import took 0.010164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 605.684031 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_doublejump.png
+  artifactKey: Guid(d30da671b0f2c47489495c0bf00d4a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_doublejump.png using Guid(d30da671b0f2c47489495c0bf00d4a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce60d5d9d583534b85ab9c3b4e3f2cf2') in 0.013684 seconds 
+  Import took 0.018765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.775823 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_doublejump.png
+  artifactKey: Guid(d30da671b0f2c47489495c0bf00d4a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_doublejump.png using Guid(d30da671b0f2c47489495c0bf00d4a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d0b898d0bf852cb6e23a3537531c10') in 0.033638 seconds 
+  Import took 0.037050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.518667 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_death.png
+  artifactKey: Guid(9dca8290e41fabb4f80f0da17828ed61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_death.png using Guid(9dca8290e41fabb4f80f0da17828ed61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2563dccb4ae870fd1b11efb0955ffb2') in 0.008738 seconds 
+  Import took 0.013883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.781758 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_death.png
+  artifactKey: Guid(9dca8290e41fabb4f80f0da17828ed61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_death.png using Guid(9dca8290e41fabb4f80f0da17828ed61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc3f14c832931f1d9b127cf65b21762') in 0.048615 seconds 
+  Import took 0.052082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.556571 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_climb.png
+  artifactKey: Guid(aae6a20b64b13aa4397125d2fb931c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_climb.png using Guid(aae6a20b64b13aa4397125d2fb931c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2669b2401bee517244e84de6cf4dcbeb') in 0.006377 seconds 
+  Import took 0.011073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.288325 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_climb.png
+  artifactKey: Guid(aae6a20b64b13aa4397125d2fb931c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_climb.png using Guid(aae6a20b64b13aa4397125d2fb931c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0be8cb88b8f763cde8c72f3040fe1b5') in 0.025771 seconds 
+  Import took 0.029835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.587517 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_doublejump.anim
+  artifactKey: Guid(83047f4c487598b4d8908039f3f5fcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_doublejump.anim using Guid(83047f4c487598b4d8908039f3f5fcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a598a148c6b12d55f3755d21fa04f89') in 0.002792 seconds 
+  Import took 0.006563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.893662 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_jump.png
+  artifactKey: Guid(6d3c3bec6f7e71b43bc747335e37a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_jump.png using Guid(6d3c3bec6f7e71b43bc747335e37a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea9b1b4b485bb65225943e0f911e58b') in 0.007565 seconds 
+  Import took 0.011359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.513846 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_jump.png
+  artifactKey: Guid(6d3c3bec6f7e71b43bc747335e37a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_jump.png using Guid(6d3c3bec6f7e71b43bc747335e37a953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0c0ae58763118f58fb256ed01ccb4b') in 0.028238 seconds 
+  Import took 0.032169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.361099 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_punch.png
+  artifactKey: Guid(ac41f8bfa45ca1a4fb3bf83a46f684e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_punch.png using Guid(ac41f8bfa45ca1a4fb3bf83a46f684e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5de918c4f82fcaafc297b2c75a4875') in 0.014126 seconds 
+  Import took 0.018438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.623539 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_punch.png
+  artifactKey: Guid(ac41f8bfa45ca1a4fb3bf83a46f684e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_punch.png using Guid(ac41f8bfa45ca1a4fb3bf83a46f684e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74336ad907278dadc120c64e6ecf03a') in 0.025916 seconds 
+  Import took 0.030116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.454998 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_run.png
+  artifactKey: Guid(b2e4a67af466351439aaeb5b2c9d0f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_run.png using Guid(b2e4a67af466351439aaeb5b2c9d0f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5dd707a6c7b53814bf7a34d1cf4ee4e') in 0.011048 seconds 
+  Import took 0.016932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.700279 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_run.png
+  artifactKey: Guid(b2e4a67af466351439aaeb5b2c9d0f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_run.png using Guid(b2e4a67af466351439aaeb5b2c9d0f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3250e74faa3550ba79057c3ed81d0e') in 0.039622 seconds 
+  Import took 0.043954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.006753 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_run_attack.png
+  artifactKey: Guid(cdaf8a85b7fecfe439cfdb9e4675b2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_run_attack.png using Guid(cdaf8a85b7fecfe439cfdb9e4675b2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a76e9100c8df091ed322b3e732252f') in 0.010275 seconds 
+  Import took 0.013614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.699730 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_run_attack.png
+  artifactKey: Guid(cdaf8a85b7fecfe439cfdb9e4675b2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_run_attack.png using Guid(cdaf8a85b7fecfe439cfdb9e4675b2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43f268c95edd5d0ed5a24d6c0bfefab') in 0.035179 seconds 
+  Import took 0.039070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.937861 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack3.png
+  artifactKey: Guid(eaa84192a03e8964ab0b0d69c4d767dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack3.png using Guid(eaa84192a03e8964ab0b0d69c4d767dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346d9c3a3306c0636a14608ed420bb0b') in 0.015241 seconds 
+  Import took 0.020647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.368594 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack3.png
+  artifactKey: Guid(eaa84192a03e8964ab0b0d69c4d767dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack3.png using Guid(eaa84192a03e8964ab0b0d69c4d767dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943876dd987d20715cc4bbc9c28f3ffc') in 0.029870 seconds 
+  Import took 0.033565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.568711 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack3.png
+  artifactKey: Guid(eaa84192a03e8964ab0b0d69c4d767dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack3.png using Guid(eaa84192a03e8964ab0b0d69c4d767dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62015e69a4a80c1ee9f7279d6180925a') in 0.024962 seconds 
+  Import took 0.028664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.630119 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_climb.anim
+  artifactKey: Guid(d066cd995e4b7c9448e5d25b152361c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_climb.anim using Guid(d066cd995e4b7c9448e5d25b152361c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f302b897a191e02b563270e22748ffa') in 0.002801 seconds 
+  Import took 0.007062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.746913 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack2.png
+  artifactKey: Guid(cb9453bf8cd222047976aa095a93afe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack2.png using Guid(cb9453bf8cd222047976aa095a93afe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4715f888bb4b9c4f3ea87aec82c6fc3e') in 0.009916 seconds 
+  Import took 0.013718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.326441 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack2.png
+  artifactKey: Guid(cb9453bf8cd222047976aa095a93afe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack2.png using Guid(cb9453bf8cd222047976aa095a93afe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c99d95da3d38f9ec670a2a952742ae3') in 0.037980 seconds 
+  Import took 0.041960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.080902 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack1.png
+  artifactKey: Guid(d942d0d6e3ea2ea43a97c5caafde3359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack1.png using Guid(d942d0d6e3ea2ea43a97c5caafde3359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd929cefe28b426cb2bfa76f3769cc58') in 0.010214 seconds 
+  Import took 0.013641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.572746 seconds.
+  path: Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack1.png
+  artifactKey: Guid(d942d0d6e3ea2ea43a97c5caafde3359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack1.png using Guid(d942d0d6e3ea2ea43a97c5caafde3359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3e9755f34b3095697bd9de2b608b9a') in 0.022727 seconds 
+  Import took 0.026813 seconds .
+
