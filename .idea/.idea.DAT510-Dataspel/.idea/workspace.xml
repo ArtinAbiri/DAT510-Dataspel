@@ -3,186 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5718e109-28cf-49bf-838f-bd4f61d48c0b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DAT510-Dataspel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DAT510-Dataspel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack1.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack1.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack2.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack2.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack3.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack3.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_attack3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_climb.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_climb.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_climb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_climb.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_death.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_death.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_death.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_death.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_doublejump.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_doublejump.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_doublejump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_doublejump.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_hurt.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_hurt.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_hurt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_hurt.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle_0.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_idle_0.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_jump.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_jump.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_jump.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_punch.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_punch.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_punch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_punch.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_run.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_run.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_run.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_run.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_run_attack.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_run_attack.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_run_attack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/1 Biker/Biker_run_attack.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Main Camera.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Main Camera.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_attack1.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_attack1.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_attack1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_attack1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_attack1_0.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_attack1_0.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_attack2.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_attack2.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_attack2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_attack2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_attack3.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_attack3.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_attack3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_attack3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_climb.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_climb.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_climb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_climb.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_death.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_death.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_death.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_death.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_doublejump.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_doublejump.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_doublejump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_doublejump.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_hurt.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_hurt.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_hurt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_hurt.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_idle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_idle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_jump.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_jump.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_jump.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_punch.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_punch.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_punch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_punch.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_run.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_run.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_run.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_run.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_run_attack.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_run_attack.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_run_attack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/2 Punk/Punk_run_attack.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_attack1.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_attack1.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_attack1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_attack1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_attack2.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_attack2.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_attack2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_attack2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_attack3.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_attack3.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_attack3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_attack3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_climb.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_climb.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_climb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_climb.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_death.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_death.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_death.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_death.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_dodge.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_dodge.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_doublejump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_doublejump.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_hurt.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_hurt.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_hurt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_hurt.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_idle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_idle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_idle_0.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_idle_0.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_jump.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_jump.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_jump.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_punch.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_punch.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_punch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_punch.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_run.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_run.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_run.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_run.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_runAttack.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_runAttack.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_run_attack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cyborg_run_attack.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cybrog_attack3.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cybrog_attack3.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cybrog_idle.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/3 Cyborg/Cybrog_idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/Font.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/Font.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/PSD.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/PSD/Biker.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/PSD/Biker.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/PSD/Cyborg.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/PSD/Cyborg.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/PSD/Punk.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/PSD/Punk.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/craftpix-net-647526-free-3-cyberpunk-characters-pixel-art/license.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Levels/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Level_1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +64,8 @@
       <workItem from="1643719736789" duration="800000" />
       <workItem from="1644320581777" duration="2481000" />
       <workItem from="1644435978994" duration="19000" />
-      <workItem from="1644880910139" duration="3024000" />
+      <workItem from="1644880910139" duration="3690000" />
+      <workItem from="1644937448850" duration="1170000" />
     </task>
     <servers />
   </component>
