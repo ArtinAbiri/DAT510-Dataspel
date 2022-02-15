@@ -7,8 +7,9 @@ using UnityEngine.UI;
 public class ItemController : MonoBehaviour
 {
     [SerializeField] private Text pickUpText;
-
+    [SerializeField] private Transform player;
     private bool pickUpAllowed;
+    private bool pickedUp;
 
     private void Start()
     {
@@ -16,14 +17,18 @@ public class ItemController : MonoBehaviour
     }
 
     private void Update()
-    {
-        if (pickUpAllowed && Input.GetKeyDown(KeyCode.E))
+    {   
+        // pick up items conditions
+        if (pickedUp)
+            gameObject.transform.position = new Vector3(player.position.x + 0.3f * player.localScale.x, player.position.y, player.position.z - 0.1f);
+        else if (pickUpAllowed && Input.GetKeyDown(KeyCode.E))
             PickUpItem();
+        
     }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "Player")
+        if (!pickedUp && col.gameObject.tag == "Player")
         {
             pickUpText.gameObject.SetActive(true);
             pickUpAllowed = true;
@@ -32,7 +37,7 @@ public class ItemController : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player")
+        if (!pickedUp && other.gameObject.tag == "Player")
         {
             pickUpText.gameObject.SetActive(false);
             pickUpAllowed = false;
@@ -41,6 +46,8 @@ public class ItemController : MonoBehaviour
 
     private void PickUpItem()
     {
-        Destroy(gameObject);
+        pickedUp = true;
+        pickUpAllowed = false;
+        pickUpText.gameObject.SetActive(false);
     }
 }
