@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5718e109-28cf-49bf-838f-bd4f61d48c0b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DAT510-Dataspel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DAT510-Dataspel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ItemController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ItemController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Levels/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Level_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
       <workItem from="1644320581777" duration="2481000" />
       <workItem from="1644435978994" duration="19000" />
       <workItem from="1644880910139" duration="3690000" />
-      <workItem from="1644937448850" duration="5724000" />
+      <workItem from="1644937448850" duration="7822000" />
     </task>
     <servers />
   </component>
