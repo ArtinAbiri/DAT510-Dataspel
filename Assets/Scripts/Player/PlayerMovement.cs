@@ -30,9 +30,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space) && grounded)
             Jump();
-        if (Input.GetKeyDown(KeyCode.F) || Input.GetMouseButtonDown(0))
-            Fight();
-        
+
         //Animation parameters
         anim.SetBool("run", horizontalInput != 0);
         anim.SetBool("grounded", grounded);
@@ -49,10 +47,5 @@ public class PlayerMovement : MonoBehaviour
     {
         if (col.gameObject.tag == "Ground")
             grounded = true;
-    }
-    
-    private void Fight()
-    {
-        anim.SetTrigger("fight");
     }
 }

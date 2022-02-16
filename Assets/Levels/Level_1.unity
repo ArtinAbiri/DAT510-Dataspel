@@ -2821,7 +2821,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: fd7eb5bc404d65841b0e6b4c388dfa7b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -5984,6 +5984,7 @@ GameObject:
   - component: {fileID: 795245066}
   - component: {fileID: 795245067}
   - component: {fileID: 795245068}
+  - component: {fileID: 795245069}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -6148,6 +6149,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 8
+--- !u!114 &795245069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795245061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2604bfd178987f6488f0c9b1d0945dd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &798320551
 GameObject:
   m_ObjectHideFlags: 0
@@ -12365,6 +12378,7 @@ GameObject:
   - component: {fileID: 1638301703}
   - component: {fileID: 1638301702}
   - component: {fileID: 1638301698}
+  - component: {fileID: 1638301704}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -12494,14 +12508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c72b0327deee4e9e95747909d0fd11a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCooldown: 4
-  range: 3
   damage: 1
-  colliderDistance: 1
-  boxCollider: {fileID: 1638301698}
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!114 &1638301703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12520,6 +12527,19 @@ MonoBehaviour:
   speed: 3
   idleDuration: 5
   anim: {fileID: 1638301699}
+--- !u!114 &1638301704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638301697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9824fdadd18c94986fa7bfcd62ce0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 2
 --- !u!61 &1638301705
 BoxCollider2D:
   m_ObjectHideFlags: 0
