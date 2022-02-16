@@ -19,17 +19,15 @@ public class Health : MonoBehaviour
     {
         currentHealth = Mathf.Clamp(currentHealth - damage, 0, startingHealth);
 
-        if (currentHealth > 0)
-        {
+        
             anim.SetTrigger("hurt");
             Debug.Log("Damage taken hurt");
-        }
-        else
-        {
-            anim.SetTrigger("die");
-            Debug.Log("Damage taken dead");
-            Destroy(gameObject);
-        }
+            if (currentHealth <= 0)
+            {
+            anim.SetBool	("die",true);
+            GetComponent<Collider2D>().enabled = false;
+            this.enabled = false;
+            }
     }
 
     private void Update()
