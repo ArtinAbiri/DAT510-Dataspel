@@ -27,6 +27,7 @@ public class Health : MonoBehaviour
             anim.SetBool	("die",true );
             GetComponent<Collider2D>().enabled = false;
             this.enabled = false;
+
             }
     }
 
