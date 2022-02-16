@@ -21,19 +21,18 @@ public class Health : MonoBehaviour
 
         if (currentHealth > 0)
         {
-            //player hurt
             anim.SetTrigger("hurt");
+            Debug.Log("Damage taken hurt");
         }
         else
         {
-            //player dead
             anim.SetTrigger("die");
+            Debug.Log("Damage taken dead");
+            Destroy(gameObject);
         }
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
-            TakeDamage(1);    
     }
 }
