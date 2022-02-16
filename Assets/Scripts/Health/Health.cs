@@ -24,7 +24,7 @@ public class Health : MonoBehaviour
             Debug.Log("Damage taken hurt");
             if (currentHealth <= 0)
             {
-            anim.SetBool	("die",true);
+            anim.SetBool	("die",true );
             GetComponent<Collider2D>().enabled = false;
             this.enabled = false;
             }
