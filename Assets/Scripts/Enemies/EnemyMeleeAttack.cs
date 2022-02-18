@@ -23,4 +23,9 @@ public class EnemyMeleeAttack : MonoBehaviour
             col.transform.GetComponent<Health>().TakeDamage(damage);
         }
     }
+
+    private void Update()
+    {
+        
+    }
 }
