@@ -1,3 +1,4 @@
+using Player;
 using UnityEngine;
 using UnityEngine.UI;
 using Weapons;
@@ -6,14 +7,15 @@ public class ItemController : MonoBehaviour
 {
     [SerializeField] private Text pickUpText;
     [SerializeField] private Transform player;
-    [SerializeField] private PlayerMeleeAttack playerMeleeAttack;
-    [SerializeField] private bool isWeapon;
+    [SerializeField] private Weapon _weapon;
     private bool pickUpAllowed;
     private bool pickedUp;
+    private PlayerWeaponManager playerWeaponManager;
 
     private void Start()
     {
         pickUpText.gameObject.SetActive(false);
+        playerWeaponManager = player.GetComponent<PlayerWeaponManager>();
     }
 
     private void Update()
@@ -49,10 +51,9 @@ public class ItemController : MonoBehaviour
         pickedUp = true;
         pickUpAllowed = false;
         pickUpText.gameObject.SetActive(false);
-        if (isWeapon)
+        if (_weapon != null)
         {
-            Debug.Log("Weapon " + gameObject.GetComponent<IWeapon>());
-            playerMeleeAttack.weapon = gameObject.GetComponent<IWeapon>();
+            playerWeaponManager.ChangeWeapon(_weapon);
         }
     }
 }

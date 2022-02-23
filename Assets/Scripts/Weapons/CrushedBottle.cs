@@ -2,13 +2,13 @@
 
 namespace Weapons
 {
-    public class Fists : Weapon
+    public class CrushedBottle: Weapon
     {
         private void Awake()
         {
-            TimeBtwnAttack = 1;
+            TimeBtwnAttack = 0.5f;
             AttackRange = 0.5f;
-            AttackDamage = 0f;
+            AttackDamage = 5f;
             Evolution = null;
             NHitsToEvolve = -1;
         }

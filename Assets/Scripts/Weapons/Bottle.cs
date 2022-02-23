@@ -3,17 +3,22 @@ using UnityEngine;
 
 namespace Weapons
 {
-    public class Bottle : MonoBehaviour, IWeapon
+    public class Bottle : Weapon
     {
-        public float timeBtwnAttack { get; set; }
-        public float attackRange { get; set; }
-        public float attackDamage { get; set; }
 
         private void Awake()
         {
-            timeBtwnAttack = 0.5f;
-            attackRange = 0.5f;
-            attackDamage = 1f;
+            TimeBtwnAttack = 1;
+            AttackRange = 1f;
+            AttackDamage = 1f;
+            Evolution = gameObject.AddComponent<CrushedBottle>();
+            NHitsToEvolve = 4;
+        }
+
+        protected override void Evolve(Weapon evolution)
+        {
+            base.Evolve(Evolution);
         }
     }
+    
 }

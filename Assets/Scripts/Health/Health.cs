@@ -21,7 +21,7 @@ public class Health : MonoBehaviour
 
         
         anim.SetTrigger("hurt");
-        Debug.Log("Damage taken hurt");
+        Debug.Log(damage + " Damage taken");
         
         if (currentHealth <= 0)
         {
