@@ -8,8 +8,7 @@ namespace Player
     
     public class PlayerWeaponManager : MonoBehaviour
     {
-        [SerializeField] private Text UICurrentWep;
-        [SerializeField] Weapon CurrentWeapon;
+        [SerializeField] public Weapon CurrentWeapon;
         private PlayerMeleeAttack _playerMeleeAttack;
         private void Awake()
         {
@@ -25,10 +24,8 @@ namespace Player
         public void ChangeWeapon(Weapon wep)
         {
             CurrentWeapon = wep;
-            UICurrentWep.text = "Equipped weapon: " + CurrentWeapon;
             _playerMeleeAttack.weapon = CurrentWeapon;
             Debug.Log("change weapon to: " + wep);
-            
         }
     }
 }

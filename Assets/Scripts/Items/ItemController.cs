@@ -1,3 +1,4 @@
+using Drunk;
 using Player;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,6 +12,7 @@ public class ItemController : MonoBehaviour
     private bool pickUpAllowed;
     private bool pickedUp;
     private PlayerWeaponManager playerWeaponManager;
+    private Collider2D other;
 
     private void Start()
     {
@@ -34,6 +36,7 @@ public class ItemController : MonoBehaviour
         {
             pickUpText.gameObject.SetActive(true);
             pickUpAllowed = true;
+            other = col;
         }
     }
 
@@ -43,6 +46,7 @@ public class ItemController : MonoBehaviour
         {
             pickUpText.gameObject.SetActive(false);
             pickUpAllowed = false;
+            other = null;
         }
     }
 
@@ -55,5 +59,6 @@ public class ItemController : MonoBehaviour
         {
             playerWeaponManager.ChangeWeapon(_weapon);
         }
+        other.transform.GetComponent<Drunkness>().Drink(1);
     }
 }
