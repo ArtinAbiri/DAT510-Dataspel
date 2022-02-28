@@ -48,6 +48,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Houses
+    uniqueID: 589473383
+    locked: 0
   - name: Ground
     uniqueID: 136384885
     locked: 0
