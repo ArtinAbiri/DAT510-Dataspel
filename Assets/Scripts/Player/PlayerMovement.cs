@@ -49,6 +49,10 @@ namespace Player
         {
             if (col.gameObject.tag == "Ground" || col.gameObject.tag == "Enemy")
                 grounded = true;
+            else
+            {
+                grounded = false;
+            }
         }
     }
 }

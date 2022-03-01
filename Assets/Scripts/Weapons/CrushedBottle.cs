@@ -11,6 +11,7 @@ namespace Weapons
             AttackDamage = 5f;
             Evolution = null;
             NHitsToEvolve = -1;
+            sprite = Resources.Load<Sprite>("Sprites/Weapons/crushedBottle");
         }
     }
 }

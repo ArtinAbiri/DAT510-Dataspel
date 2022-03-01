@@ -8,14 +8,15 @@ namespace Weapons
 {
     public abstract class Weapon: MonoBehaviour
     {
-        [SerializeField] private PlayerWeaponManager _weaponManager;
+        [SerializeField] private PlayerWeaponManager weaponManager;
         public float TimeBtwnAttack { get; set; }
         public float AttackRange { get; set; }
         public float AttackDamage { get; set; }
         protected Weapon Evolution { get; set; }
         
         public int NHitsToEvolve { get; set; }
-        
+
+        public Sprite sprite { get; set; }
 
         protected void Update()
         {
@@ -26,7 +27,7 @@ namespace Weapons
         protected virtual void Evolve(Weapon evolution)
         {
             Debug.Log("evolve to: " + evolution);
-            _weaponManager.ChangeWeapon(evolution);
+            weaponManager.ChangeWeapon(evolution);
             Destroy(gameObject);
         }
     }

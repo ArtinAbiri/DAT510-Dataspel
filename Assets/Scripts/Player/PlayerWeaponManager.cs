@@ -8,27 +8,23 @@ namespace Player
     
     public class PlayerWeaponManager : MonoBehaviour
     {
-        [SerializeField] private Text UICurrentWep;
-        [SerializeField] Weapon CurrentWeapon;
+        [SerializeField] public Weapon CurrentWeapon;
         private PlayerMeleeAttack _playerMeleeAttack;
         private void Awake()
         {
             _playerMeleeAttack = gameObject.GetComponent<PlayerMeleeAttack>();
             _playerMeleeAttack.weapon = CurrentWeapon;
-        }
-
-        private void Update()
-        {
-            
+            if (CurrentWeapon.GetType() != typeof(Fists))
+                _playerMeleeAttack.wepSprite.sprite = CurrentWeapon.sprite;
         }
 
         public void ChangeWeapon(Weapon wep)
         {
             CurrentWeapon = wep;
-            UICurrentWep.text = "Equipped weapon: " + CurrentWeapon;
-            _playerMeleeAttack.weapon = CurrentWeapon;
+            _playerMeleeAttack.weapon = wep;
+            if (CurrentWeapon.GetType() != typeof(Fists))
+                _playerMeleeAttack.wepSprite.sprite = CurrentWeapon.sprite;
             Debug.Log("change weapon to: " + wep);
-            
         }
     }
 }

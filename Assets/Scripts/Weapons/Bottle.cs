@@ -12,7 +12,8 @@ namespace Weapons
             AttackRange = 1f;
             AttackDamage = 1f;
             Evolution = gameObject.AddComponent<CrushedBottle>();
-            NHitsToEvolve = 4;
+            NHitsToEvolve = 10;
+            sprite = Resources.Load<Sprite>("Sprites/Weapons/bottle1");
         }
 
         protected override void Evolve(Weapon evolution)

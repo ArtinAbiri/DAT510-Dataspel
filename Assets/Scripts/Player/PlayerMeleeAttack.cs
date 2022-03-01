@@ -11,13 +11,13 @@ namespace Player
 
         private Animator anim;
         private float timeBtwnAttackTimer;
-        //private PlayerWeaponManager PlayerWeaponManagerScript;
+        public SpriteRenderer wepSprite { get; set; }
         public Weapon weapon { get; set; }
 
         void Awake()
         {
             anim = GetComponent<Animator>();
-           
+            wepSprite = attackPos.gameObject.GetComponent<SpriteRenderer>();
         }
 
         // Update is called once per frame
