@@ -7,9 +7,10 @@ namespace Drunk
     {
         [SerializeField] private float startingDrunkness;
         public float currentDrunkness { get; private set; }
-
+        private Health health;
         private void Awake()
         {
+            health = gameObject.GetComponent<Health>();
             currentDrunkness = startingDrunkness;
             InvokeRepeating("SoberUp", 1f, 30f);
         }
@@ -18,19 +19,23 @@ namespace Drunk
         {
             Debug.Log("DRINK " + amount);
             currentDrunkness = Mathf.Clamp(currentDrunkness + amount, 0, 4);
+            if (currentDrunkness >= 3.9f)
+            {
+                Blackout();
+            }
         }
 
         public void SoberUp()
         {
             SoberUp(0.5f);
         }
-        public void SoberUp(float amount)
+        private void SoberUp(float amount)
         {   
             
             if (currentDrunkness <= 0)
             {
                 Debug.Log("SoberUp damage taken");
-                gameObject.GetComponent<Health>().TakeDamage(1);
+                health.TakeDamage(1);
             }
             else
             {
@@ -38,6 +43,12 @@ namespace Drunk
                 currentDrunkness = Mathf.Clamp(currentDrunkness - amount, 0, 4);    
             }
             
+        }
+
+        private void Blackout()
+        {
+            health.TakeDamage(2);
+            health.Invincible();
         }
         private void Update()
         {
