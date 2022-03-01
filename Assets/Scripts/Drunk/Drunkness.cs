@@ -6,6 +6,8 @@ namespace Drunk
     public class Drunkness: MonoBehaviour
     {
         [SerializeField] private float startingDrunkness;
+		[SerializeField] private Camera _camera;
+		
         public float currentDrunkness { get; private set; }
         private Health health;
         private void Awake()
@@ -41,7 +43,7 @@ namespace Drunk
             else
             {
                 Debug.Log("SoberUp " + amount);
-                currentDrunkness = Mathf.Clamp(currentDrunkness - amount, 0, 4);    
+                currentDrunkness = Mathf.Clamp(currentDrunkness - amount, 0, 4);
             }
             
         }
@@ -50,6 +52,7 @@ namespace Drunk
         {
             health.TakeDamage(2);
             health.isInvincible = true;
+			_camera.GetComponent<CameraShake>().ShakeMe();
         }
         private void Update()
         {
