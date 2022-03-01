@@ -9,6 +9,7 @@ public class ItemController : MonoBehaviour
     [SerializeField] private Text pickUpText;
     [SerializeField] private Transform player;
     [SerializeField] private Weapon _weapon;
+    [SerializeField] private float drunkAmount;
     private bool pickUpAllowed;
     private bool pickedUp;
     private PlayerWeaponManager playerWeaponManager;
@@ -59,6 +60,6 @@ public class ItemController : MonoBehaviour
         {
             playerWeaponManager.ChangeWeapon(_weapon);
         }
-        other.transform.GetComponent<Drunkness>().Drink(1);
+        other.transform.GetComponent<Drunkness>().Drink(drunkAmount);
     }
 }

@@ -24284,6 +24284,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 795245063}
+  allowYMovement: 0
+  lowestY: 0
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -65529,6 +65531,7 @@ MonoBehaviour:
   pickUpText: {fileID: 522021095}
   player: {fileID: 795245063}
   _weapon: {fileID: 1365397873}
+  drunkAmount: 1
 --- !u!114 &1365397873
 MonoBehaviour:
   m_ObjectHideFlags: 0
