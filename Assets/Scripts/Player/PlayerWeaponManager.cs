@@ -22,8 +22,9 @@ namespace Player
         {
             CurrentWeapon = wep;
             _playerMeleeAttack.weapon = wep;
+            _playerMeleeAttack.wepSprite.sprite = null;
             if (CurrentWeapon.GetType() != typeof(Fists))
-                _playerMeleeAttack.wepSprite.sprite = CurrentWeapon.sprite;
+                _playerMeleeAttack.wepSprite.sprite = wep.sprite;
             Debug.Log("change weapon to: " + wep);
         }
     }
