@@ -6,7 +6,7 @@ public class Health : MonoBehaviour
     [SerializeField] private float startingHealth;
     public float currentHealth { get; private set; }
     private Animator anim;
-    private bool isInvincible;
+    public bool isInvincible { get; set;}
     private void Awake()
     {
         currentHealth = startingHealth;
@@ -37,11 +37,7 @@ public class Health : MonoBehaviour
             }
         }
     }
-
-    public void Invincible()
-    {
-        isInvincible = true;
-    }
+    
     private void Die()
     {
         currentHealth = 0;

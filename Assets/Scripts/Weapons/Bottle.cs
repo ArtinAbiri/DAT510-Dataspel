@@ -10,7 +10,7 @@ namespace Weapons
         {
             TimeBtwnAttack = 1;
             AttackRange = 1f;
-            AttackDamage = 1f;
+            AttackDamage = 2f;
             Evolution = gameObject.AddComponent<CrushedBottle>();
             NHitsToEvolve = 10;
             sprite = Resources.Load<Sprite>("Sprites/Weapons/bottle1");

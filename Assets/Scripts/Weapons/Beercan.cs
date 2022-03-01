@@ -8,7 +8,7 @@ namespace Weapons
         {
             TimeBtwnAttack = 1;
             AttackRange = 0.5f;
-            AttackDamage = 2f;
+            AttackDamage = 3f;
             Evolution = gameObject.AddComponent<Fists>();;
             NHitsToEvolve = 2;
             sprite = Resources.Load<Sprite>("Sprites/Weapons/beercan");

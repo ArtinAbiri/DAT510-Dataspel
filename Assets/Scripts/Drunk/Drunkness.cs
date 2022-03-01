@@ -28,6 +28,7 @@ namespace Drunk
         public void SoberUp()
         {
             SoberUp(0.5f);
+            health.isInvincible = false;
         }
         private void SoberUp(float amount)
         {   
@@ -48,7 +49,7 @@ namespace Drunk
         private void Blackout()
         {
             health.TakeDamage(2);
-            health.Invincible();
+            health.isInvincible = true;
         }
         private void Update()
         {
