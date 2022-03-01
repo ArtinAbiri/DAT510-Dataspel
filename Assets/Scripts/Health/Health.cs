@@ -28,12 +28,11 @@ public class Health : MonoBehaviour
                 anim.SetBool("die", true);
                 if (gameObject.tag == "Player")
                 {
+                    Destroy(gameObject.GetComponent<Rigidbody2D>());
                     Invoke("PlayerDeath", 5f);
                 }
-                else
-                {
-                    Die();
-                }
+                Die();
+                
 
             }
         }
