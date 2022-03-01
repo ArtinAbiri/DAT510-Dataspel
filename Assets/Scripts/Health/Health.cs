@@ -1,6 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class Health : MonoBehaviour
@@ -26,16 +24,31 @@ public class Health : MonoBehaviour
         if (currentHealth <= 0)
         {
             anim.SetBool("die",true);
-            Collider2D[] comps = GetComponents<Collider2D>();
-            MonoBehaviour[] monos = GetComponents<MonoBehaviour>();
-            foreach(Collider2D c in comps)
-                c.enabled = false;
-            foreach (MonoBehaviour m in monos)
-                m.enabled = false;
+            if (gameObject.tag == "Player")
+            {
+                Invoke("PlayerDeath", 5f);
+            }
+            else
+            {
+                Die();    
+            }
+            
         }
     }
 
-    private void Update()
+    private void Die()
     {
+        currentHealth = 0;
+        Collider2D[] comps = GetComponents<Collider2D>();
+        MonoBehaviour[] monos = GetComponents<MonoBehaviour>();
+        foreach(Collider2D c in comps)
+            c.enabled = false;
+        foreach (MonoBehaviour m in monos)
+            m.enabled = false;
+    }
+
+    private void PlayerDeath()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

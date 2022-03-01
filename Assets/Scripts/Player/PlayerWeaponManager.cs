@@ -14,17 +14,16 @@ namespace Player
         {
             _playerMeleeAttack = gameObject.GetComponent<PlayerMeleeAttack>();
             _playerMeleeAttack.weapon = CurrentWeapon;
-        }
-
-        private void Update()
-        {
-            
+            if (CurrentWeapon.GetType() != typeof(Fists))
+                _playerMeleeAttack.wepSprite.sprite = CurrentWeapon.sprite;
         }
 
         public void ChangeWeapon(Weapon wep)
         {
             CurrentWeapon = wep;
-            _playerMeleeAttack.weapon = CurrentWeapon;
+            _playerMeleeAttack.weapon = wep;
+            if (CurrentWeapon.GetType() != typeof(Fists))
+                _playerMeleeAttack.wepSprite.sprite = CurrentWeapon.sprite;
             Debug.Log("change weapon to: " + wep);
         }
     }
