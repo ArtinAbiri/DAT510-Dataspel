@@ -47,7 +47,7 @@ public class Health : MonoBehaviour
             m.enabled = false;
     }
 
-    private void PlayerDeath()
+    public void PlayerDeath()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }

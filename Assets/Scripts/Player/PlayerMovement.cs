@@ -12,11 +12,13 @@ namespace Player
         [SerializeField] private float speed;
         private Animator anim;
         private bool grounded;
+        private Health health;
 
         private void Awake()
         {
             body = GetComponent<Rigidbody2D>();
             anim = GetComponent<Animator>();
+            health = GetComponent<Health>();
         }
 
         private void Update()
@@ -36,6 +38,11 @@ namespace Player
             //Animation parameters
             anim.SetBool("run", horizontalInput != 0);
             anim.SetBool("grounded", grounded);
+
+            if (body.position.y < -10)
+            {
+                health.PlayerDeath();
+            }
         }
 
         private void Jump()
